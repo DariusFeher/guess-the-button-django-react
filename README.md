@@ -11,8 +11,8 @@
 1. Clone the repository
 2. Create an isotaled Python environment by running this command: ```virtualenv env```
 3. Activate the virtual environment: ```. ./env/bin/activate``` for `MacOS/Linux` and ``` . .\env\scripts\activate``` for `Windows`
-4. Make sure your node version is >= 12.0, otherwise run the following command: ```nvm install node --reinstall-packages-from=node```
+4. Make sure your node version is >= 12.0 by running ```node -v```, otherwise run the following command: ```nvm install node --reinstall-packages-from=node```
 5. Run: ```python manage.py runserver```
-6. Go to: [localhost](http://localhost:8000)
+6. Go to: [localhost](http://localhost:8000), if it does not work, then check which port your localhost uses!
 7. You should now see the main page:
 ![image](https://www.linkpicture.com/q/main_page.png)
