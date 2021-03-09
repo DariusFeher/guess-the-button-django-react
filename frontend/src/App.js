@@ -17,10 +17,10 @@ class App extends React.Component {
 
   reply_click(clicked_id) {
     if (clicked_id == this.no_winning_button) {
-       alert("Congratulations! You won!");
+       alert("Congratulations, you won!");
        this.no_winning_button = Math.floor(Math.random() * this.state.no_buttons); 
     } else {
-      alert("Oops, wrong button pressed.\n Don't give up!!")
+      alert("Oops, wrong button pressed.\nDon't give up!!")
     }
     this.no_winning_button = Math.floor(Math.random() * this.state.no_buttons);
     return clicked_id;
